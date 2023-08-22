@@ -27,3 +27,9 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+#IDE
+.idea
+.lib
+.vscode
+*.iml
