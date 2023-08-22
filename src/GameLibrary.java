@@ -5,4 +5,10 @@ public class GameLibrary {
     public GameLibrary() {
         ArrayList<String> games = new ArrayList<>();
     }
+
+    public void displayGameLibrary() {
+        for(String game: games) {
+            ui.displayMessage(game + "\n");
+        }
+    }
 }
