@@ -8,6 +8,13 @@ public class GameLibrary {
         ui = new TextUI();
     }
 
+
+    public void displayGameLibrary() {
+        for(String game: games) {
+            ui.displayMessage(game);
+        }
+    }
+
     public void displayMenu() {
         while(true) {
             int option = ui.getInput("1) Display Games\n2) Play Game\n3) Add Game\n4) Remove game");
