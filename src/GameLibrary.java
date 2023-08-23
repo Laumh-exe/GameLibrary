@@ -14,13 +14,21 @@ public class GameLibrary {
             ui.displayMessage(game);
         }
     }
+    public void playGame(){
 
+    }
+    public void addGame(){
+
+    }
+    public void removeGame(){
+
+    }
     public void displayMenu() {
         while(true) {
             int option = ui.getInput("1) Display Games\n2) Play Game\n3) Add Game\n4) Remove game");
             switch (option) {
                 case 1:
-                    displayGameLibray();
+                    displayGameLibrary();
                     break;
                 case 2:
                     playGame();
