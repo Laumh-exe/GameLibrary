@@ -3,6 +3,7 @@ import java.util.ArrayList;
 import static java.lang.Integer.parseInt;
 
 public class GameLibrary {
+
     private ArrayList<String> games;
     private TextUI ui;
     public GameLibrary() {
@@ -27,6 +28,11 @@ public class GameLibrary {
     public void removeGame(){
 
     }
+
+    public ArrayList<String> getGames() {
+        return games;
+    }
+
     public void displayMenu() {
         while(true) {
             int option =  parseInt(ui.getInput("1) Display Games\n2) Play Game\n3) Add Game\n4) Remove game"));
