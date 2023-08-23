@@ -9,10 +9,12 @@ public class GameLibrary {
     }
 
 
-    public void displayGameLibrary() {
+    public String displayGameLibrary() {
+        String gamesList = "";
         for(String game: games) {
-            ui.displayMessage(game);
+            gamesList += game + "\n";
         }
+        return gamesList;
     }
     public void playGame(){
 
