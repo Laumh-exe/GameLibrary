@@ -1,5 +1,7 @@
 import java.util.ArrayList;
 
+import static java.lang.Integer.parseInt;
+
 public class GameLibrary {
     private ArrayList<String> games;
     private TextUI ui;
@@ -27,7 +29,7 @@ public class GameLibrary {
     }
     public void displayMenu() {
         while(true) {
-            int option = ui.getInput("1) Display Games\n2) Play Game\n3) Add Game\n4) Remove game");
+            int option =  parseInt(ui.getInput("1) Display Games\n2) Play Game\n3) Add Game\n4) Remove game"));
             switch (option) {
                 case 1:
                     displayGameLibrary();
