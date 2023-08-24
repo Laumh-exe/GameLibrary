@@ -7,10 +7,9 @@ public class GameLibrary {
     private ArrayList<String> games;
     private TextUI ui;
     public GameLibrary() {
-        ArrayList<String> games = new ArrayList<>();
-        ui = new TextUI();
+        this.games = new ArrayList<>();
+        this.ui = new TextUI();
     }
-
 
     public String displayGameLibrary() {
         String gamesList = "";
@@ -22,8 +21,8 @@ public class GameLibrary {
     public void playGame(){
 
     }
-    public void addGame(){
-
+    public void addGame(String game){
+        games.add(game);
     }
     public void removeGame(){
 
@@ -44,7 +43,8 @@ public class GameLibrary {
                     playGame();
                     break;
                 case 3:
-                    addGame();
+                    String game = ui.getInput("What game do you want to add?");
+                    addGame(game);
                     break;
                 case 4:
                     removeGame();
