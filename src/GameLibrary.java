@@ -18,8 +18,8 @@ public class GameLibrary {
         }
         return gamesList;
     }
-    public void playGame(){
-
+    public String playGame(String game){
+        return ui.getInput("Now playing " + game);
     }
     public void addGame(String game){
         games.add(game);
@@ -41,7 +41,8 @@ public class GameLibrary {
                     displayGameLibrary();
                     break;
                 case 2:
-                    playGame();
+                    game = ui.getInput("What game do you want to play?");
+                    playGame(game);
                     break;
                 case 3:
                     game = ui.getInput("What game do you want to add?");
