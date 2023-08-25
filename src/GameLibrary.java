@@ -34,6 +34,7 @@ public class GameLibrary {
 
     public void displayMenu() {
         while(true) {
+            String game;
             int option =  parseInt(ui.getInput("1) Display Games\n2) Play Game\n3) Add Game\n4) Remove game"));
             switch (option) {
                 case 1:
@@ -43,11 +44,11 @@ public class GameLibrary {
                     playGame();
                     break;
                 case 3:
-                    String game = ui.getInput("What game do you want to add?");
+                    game = ui.getInput("What game do you want to add?");
                     addGame(game);
                     break;
                 case 4:
-                    String game = ui.getInput("What game do you want to remove?");
+                    game = ui.getInput("What game do you want to remove?");
                     removeGame(game);
                     break;
                 default:
