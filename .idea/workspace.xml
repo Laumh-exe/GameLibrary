@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d5e4fed-f8a7-4183-8346-3481a76bc798" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/playGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/playGameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameLibrary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GameLibrary.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/GameLibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/GameLibraryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/playGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/playGameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameLibrary.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,30 +71,50 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.playGameTest.playGame">
-    <configuration name="playGameTest.playGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="GameLibraryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GameLibrary" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="playGameTest" />
+      <option name="MAIN_CLASS_NAME" value="GameLibraryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameLibraryTest.displayGameLibraryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GameLibrary" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GameLibraryTest" />
+      <option name="METHOD_NAME" value="displayGameLibraryTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameLibraryTest.playGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GameLibrary" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GameLibraryTest" />
       <option name="METHOD_NAME" value="playGame" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="removeGame_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameLibraryTest.playGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GameLibrary" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="removeGame_test" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="GameLibraryTest" />
+      <option name="METHOD_NAME" value="playGameTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="removeGame_test.removeGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameLibraryTest.removeGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GameLibrary" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="removeGame_test" />
+      <option name="MAIN_CLASS_NAME" value="GameLibraryTest" />
       <option name="METHOD_NAME" value="removeGameTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -99,9 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.playGameTest.playGame" />
-        <item itemvalue="JUnit.removeGame_test.removeGameTest" />
-        <item itemvalue="JUnit.removeGame_test" />
+        <item itemvalue="JUnit.GameLibraryTest" />
+        <item itemvalue="JUnit.GameLibraryTest.removeGameTest" />
+        <item itemvalue="JUnit.GameLibraryTest.playGameTest" />
+        <item itemvalue="JUnit.GameLibraryTest.displayGameLibraryTest" />
+        <item itemvalue="JUnit.GameLibraryTest.playGame" />
       </list>
     </recent_temporary>
   </component>

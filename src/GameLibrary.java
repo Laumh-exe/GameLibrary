@@ -19,7 +19,7 @@ public class GameLibrary {
         return gamesList;
     }
     public String playGame(String game){
-        return ui.getInput("Now playing " + game);
+        return "Now playing " + game;
     }
     public void addGame(String game){
         games.add(game);
@@ -38,11 +38,11 @@ public class GameLibrary {
             int option =  parseInt(ui.getInput("1) Display Games\n2) Play Game\n3) Add Game\n4) Remove game"));
             switch (option) {
                 case 1:
-                    displayGameLibrary();
+                    ui.displayMessage(displayGameLibrary());
                     break;
                 case 2:
                     game = ui.getInput("What game do you want to play?");
-                    playGame(game);
+                    ui.displayMessage(playGame(game));
                     break;
                 case 3:
                     game = ui.getInput("What game do you want to add?");
