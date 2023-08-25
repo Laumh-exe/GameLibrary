@@ -24,8 +24,8 @@ public class GameLibrary {
     public void addGame(String game){
         games.add(game);
     }
-    public void removeGame(){
-
+    public void removeGame(String game){
+        games.remove(game);
     }
 
     public ArrayList<String> getGames() {
@@ -47,7 +47,8 @@ public class GameLibrary {
                     addGame(game);
                     break;
                 case 4:
-                    removeGame();
+                    String game = ui.getInput("What game do you want to remove?");
+                    removeGame(game);
                     break;
                 default:
                     ui.displayMessage("Please type a number to select an option from the list");
